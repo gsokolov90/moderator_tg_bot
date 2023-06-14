@@ -6,4 +6,6 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-    env_file: .env  
+    restart: always
+    env_file: .env
+    
